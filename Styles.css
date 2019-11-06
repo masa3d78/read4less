@@ -1,19 +1,10 @@
 
-h2.R4L{
-    color:darkgoldenrod;
-    font-family:monospace;
-    font-weight: bold;
-    font-size: large;
-
-}
 
 div.p-2{
     font-family:monospace;
     font-weight: bold;
     font-size: 19px;
-
 }
-
 
 div.hd{
    font-family:monospace;
@@ -24,4 +15,19 @@ div.hd{
 img.lgo{
     width:90px;
     height:50px;
+}
+
+footer.ftr{
+    display: block;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+input.srch{
+    float: right;
+    padding: 5px;
+    border: 1px solid gray;
+    margin-top: 16px;
+    margin-right: 16px;
+    font-size: 12px;
 }
