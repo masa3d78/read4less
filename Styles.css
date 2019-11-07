@@ -4,25 +4,49 @@ img.lgo{
     margin-top: 4px;
 }
 
+img.adv{
+    width:190px;
+    height:120px;
+    margin-top: 20px;
+}
+
+img.bk_fr{
+    width:200px;
+    height:215x;
+    margin-top: 20px;
+}
+
+p.pnl{
+    text-align:center;
+    font-family:fantasy;
+    font-size: 20px;
+    color: #ffc107;
+}
+
 div.hed{
-    font-family:monospace;
-    font-weight: bold;
-    font-size: 30px;
+    font-family:fantasy;
+    font-size: 20px;
     margin-left: 16px;
 }
 
 div.p-2{
-    font-family:monospace;
-    font-weight: bold;
-    font-size: 19px;
+    font-family:fantasy;
+    font-size: 15px;
 }
 
 footer.ftr{
     text-align: center;
-    border: 5px solid white;
-    background-color:#19334d;
-    font-weight: bold;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-color:#6c757d;
+    font-family:fantasy;
     color: white;
+    bottom: 0;
+    left:0;
+    position: absolute;
+    width: 100%;
+    height:40px;
+    /*padding-top: 13px;*/
 }
 
 input.srch{
@@ -34,23 +58,47 @@ input.srch{
     font-size: 15px;
 }
 
-.split {
-  height: 82%;
-  position:fixed;
-  z-index: -1;
-  bottom: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.right {
-    right: 0;
-    width: 15%;
-    background-color: #29a3a3;
-}
-
-.left {
+.leftpane{
     left: 0;
-    width: 9%;
-    background-color: #29a3a3;
+    width: 15%;
+    background-color: #6c757d;
+    border: 5px solid white;
+    height: 80%;
+    position:fixed;
+    z-index: -1;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.middlepane{
+    height: 80%;
+    position:fixed;
+    z-index: -1;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color:beige;
+    width: 68%;
+    border-top: 5px solid white;
+    border-left: 12px solid white;
+    border-bottom: 5px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rightpane{
+    width: 15%;
+    right: 0;
+    height: 80%;
+    position:fixed;
+    z-index: -1;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #6c757d;
+    border: 5px solid white;
+    padding-left: 20px;
 }
