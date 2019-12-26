@@ -102,3 +102,15 @@ input.srch{
     border: 5px solid white;
     padding-left: 20px;
 }
+
+
+label{
+display:inline-block;
+width:200px;
+margin-right:30px;
+text-align:right;
+}
+
+#RS{
+    font-family:fantasy;
+}

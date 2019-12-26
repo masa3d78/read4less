@@ -51,7 +51,23 @@
             </div>
 
             <div class="middlepane">
-                login
+
+                <form action="/login.php" method="post">
+                    <p class="usr">If you are an existing user, please enter your Username and Password...</p><br>
+                    <fieldset>
+                            <label for="unl">User Name</label>
+                            <input type="text" name="un">
+                            <br><br>
+                            <label for="psl">Password</label>
+                            <input type="password" name="ps">
+                            <br><br>
+                            <input type="submit" value="Login">
+                            <br><br><br>
+                    </fieldset>
+                    <p class="usr">Or please click <span><a href="signup.html">Sign Up</a></span> to create a new user...</p><br>
+
+                </form>
+
                 <footer class="ftr">
                   <p>Copyright &copy; 2020 by read4less, All Rights Reserved</p>
                 </footer>

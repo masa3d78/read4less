@@ -51,21 +51,35 @@
             </div>
 
             <div class="middlepane">
-                <form action="index.php" method="post">
-                    <input type="text" name="un">
-                    <br><br>
-                    <input type="password" name="ps">
-                    <br><br>
-                    <input type="text" name="nm">
-                    <br><br>
-                    <input type="text" name="ad">
-                    <br><br>
-                    <input type="text" name="ph">
-                    <br><br>
-                    <input type="text" name="em">
-                    <br><br><br><br>
-                    <input type="submit" value="Sign-up">
-                </form>
+
+                    <form action="/signup.php" method="post">
+
+                        <p>Create New User</p><br><br>
+
+                        <fieldset>
+                        <label for="un">User Name</label>
+                        <input type="text" name="un">
+                        <br><br>
+                        <label for="ps">Password</label>
+                        <input type="password" name="ps">
+                        <br><br>
+                        <label for="nm">Name</label>
+                        <input type="text" name="nm">
+                        <br><br>
+                        <label for="ad">Address</label>
+                        <input type="text" name="ad">
+                        <br><br>
+                        <label for="ph">Phone</label>
+                        <input type="text" name="ph">
+                        <br><br>
+                        <label for="em">email</label>
+                        <input type="text" name="em">
+                        <br><br>
+                        <input type="submit" value="Sign-up">
+                        </fieldset>
+
+                    </form>
+
 
                 <footer class="ftr">
                   <p>Copyright &copy; 2020 by read4less, All Rights Reserved</p>
